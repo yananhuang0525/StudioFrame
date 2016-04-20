@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- listview及gridview的重复代码 -->
+    <style name="style_listView_default">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:divider">#ebebeb</item>
+        <item name="android:dividerHeight">0.5dp</item>
+        <item name="android:cacheColorHint">@color/sdk_base_transparent</item>
+        <item name="android:listSelector">@color/sdk_base_transparent</item>
+    </style>
+</resources>

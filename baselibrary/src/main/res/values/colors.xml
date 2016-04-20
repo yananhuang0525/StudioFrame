@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 文字颜色 -->
+    <!-- 文字颜色黑 -->
+    <color name="sdk_base_text_black">#353535</color>
+    <!-- 文字颜色黑,透明度一半 -->
+    <color name="sdk_base_text_black_half">#88353535</color>
+    <!-- 文字颜色灰 -->
+    <color name="sdk_base_text_grey">#AAAAAA</color>
+    <!-- 文字颜色中灰 -->
+    <color name="sdk_base_text_grey_middle">#555555</color>
+    <!-- 文字颜色浅灰 -->
+    <color name="sdk_base_text_grey_light">#bbbbbb</color>
+    <!-- 文字颜色纯黑 -->
+    <color name="sdk_base_text_black_dark">#000000</color>
+    <!-- 文字颜色白 -->
+    <color name="sdk_base_text_white">#ffffff</color>
+    <!-- 文字颜色白，点击 -->
+    <color name="sdk_base_text_white_half">#88ffffff</color>
+    <!-- 文字颜色绿 -->
+    <color name="sdk_base_text_green">#2e9500</color>
+    <!-- 文字颜色红 -->
+    <color name="sdk_base_text_red">#ff5454</color>
+    <!-- 文字颜色链接蓝 -->
+    <color name="sdk_base_text_blue">#617FA5</color>
+    <!-- 文字颜色橘色 -->
+    <color name="sdk_base_text_orange">#efb935</color>
+    <!-- 文字颜色，单选按钮选中色 -->
+    <color name="sdk_base_text_rb_checked">#00b4ff</color>
+    <!-- 文字颜色主题 -->
+    <color name="sdk_base_text_theme">#00b4ff</color>
+    <!-- 文字颜色主题 -->
+    <color name="sdk_base_text_theme_half">#8800b4ff</color>
+
+    <!-- 色块颜色 -->
+    <!-- 背景颜色白 -->
+    <color name="sdk_base_bg_white">#ffffff</color>
+    <!-- 背景颜色灰 -->
+    <color name="sdk_base_bg_grey">#ebebeb</color>
+    <!-- 背景颜色，点击色 -->
+    <color name="sdk_base_bg_click">#d9d9d9</color>
+    <!-- 背景颜色置顶 -->
+    <color name="sdk_base_bg_top">#EAF7FD</color>
+    <!-- 背景颜色对话框背景 -->
+    <color name="sdk_base_bg_dialog">#40000000</color>
+    <!-- 背景颜色，标题点击 -->
+    <color name="sdk_base_bg_title_click">#00000000</color>
+    <!-- 背景颜色，标题 -->
+    <color name="sdk_base_bg_title">#22292c</color>
+    <!-- 背景颜色主题 -->
+    <color name="sdk_base_bg_theme">#00b4ff</color>
+ <!-- 背景颜色主题一半 -->
+    <color name="sdk_base_bg_theme_half">#8800b4ff</color>
+    <!-- 背景色，主题点击 -->
+    <color name="sdk_base_bg_theme_click">#00a2e5</color>
+
+    <!-- 背景色，按钮灰色 -->
+    <color name="sdk_base_bg_btn_grey">#f9f9f9</color>
+    <!-- 背景色，按钮灰色点击 -->
+    <color name="sdk_base_bg_btn_grey_click">#f9f9f9</color>
+    <!-- 背景色，按钮红色 -->
+    <color name="sdk_base_bg_btn_red">#ff5454</color>
+    <!-- 背景色，按钮红色点击 -->
+    <color name="sdk_base_bg_btn_red_click">#dc3838</color>
+
+    <!-- 其他颜色 -->
+    <!-- 分隔线 -->
+    <color name="sdk_base_divider">#ebebeb</color>
+    <!-- 透明 -->
+    <color name="sdk_base_transparent">#00000000</color>
+    <!--点击涟漪效果的颜色值-->
+    <color name="sdk_base_rippleColor">#353535</color>
+
+</resources>
