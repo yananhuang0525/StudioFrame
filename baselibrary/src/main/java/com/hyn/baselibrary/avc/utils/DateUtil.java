@@ -89,7 +89,7 @@ public class DateUtil {
 	 *            毫秒级时差
 	 * @return
 	 */
-	public static String formateDuration(int duration) {
+	public static String formatDuration(int duration) {
 		int compareMinite = 0;
 		int compareSec = 0;
 		int compareHour = (int) (duration / 1000 / 60 / 60);
@@ -141,7 +141,7 @@ public class DateUtil {
 	 * 
 	 * @return
 	 */
-	public static String getQyFormateDate(Date targetdate) {
+	public static String getFormatDate(Date targetdate) {
 		SimpleDateFormat f_target = new SimpleDateFormat("yyyy-M-d HH:mm");
 		String targetDateTimeStr = f_target.format(targetdate);
 		Date nowDate = new Date();
@@ -167,7 +167,7 @@ public class DateUtil {
 	 * 
 	 * @return
 	 */
-	public static String getQyFormateDate2(Date targetdate) {
+	public static String getFormatDate2(Date targetdate) {
 		SimpleDateFormat f_target = new SimpleDateFormat("yyyy年M月d日 HH:mm");
 		String targetDateTimeStr = f_target.format(targetdate);
 		Date nowDate = new Date();
@@ -204,7 +204,7 @@ public class DateUtil {
 			e.printStackTrace();
 		}
 		if (inDate != null) {
-			return getQyFormateDate(inDate);
+			return getFormatDate(inDate);
 		} else {
 			return null;
 		}
@@ -219,7 +219,7 @@ public class DateUtil {
 	 * @param dateTime
 	 * @return
 	 */
-	public static String getQyFormateDate2(String formate, String dateTime) {
+	public static String getFormatDate2(String formate, String dateTime) {
 		SimpleDateFormat f_in = new SimpleDateFormat(formate);
 		Date inDate = null;
 		try {
@@ -228,7 +228,7 @@ public class DateUtil {
 			e.printStackTrace();
 		}
 		if (inDate != null) {
-			return getQyFormateDate2(inDate);
+			return getFormatDate2(inDate);
 		} else {
 			return null;
 		}

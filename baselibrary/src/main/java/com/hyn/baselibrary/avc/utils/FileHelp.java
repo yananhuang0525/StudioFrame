@@ -132,6 +132,7 @@ public class FileHelp {
 
     /**
      * 读取asset文件，以string 格式返回
+     *
      * @param fileName
      * @return
      */
@@ -148,7 +149,7 @@ public class FileHelp {
         } catch (Exception e) {
             e.printStackTrace();
         }
-        return  null;
+        return null;
     }
 
     public static boolean hasSDCard() {
@@ -170,11 +171,11 @@ public class FileHelp {
     }
 
     public static String getSaveFilePath() {
-        String path = getRootFilePath() + "cn.com.qytx.data/";
+        String path = getRootFilePath() + BaseApplication.context().getPackageName();
         createDirectory(path);
-        path = path + "database/";
+        path = path + "/database/";
         createDirectory(path);
-        return getRootFilePath() + "cn.com.qytx.data/database/";
+        return getRootFilePath() + BaseApplication.context().getPackageName() + "/database/";
     }
 
     public static boolean fileIsExist(String filePath) {
