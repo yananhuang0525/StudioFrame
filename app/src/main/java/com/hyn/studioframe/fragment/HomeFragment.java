@@ -28,7 +28,7 @@ public class HomeFragment extends Fragment implements XListView.IXListViewListen
     private List<DataInfo> list = new ArrayList<>();
     private ListViewAdapter adapter;
     Date date = new Date(System.currentTimeMillis());
-    String s = DateUtil.getQyFormateDate(date);
+    String s = DateUtil.getFormatDate(date);
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {

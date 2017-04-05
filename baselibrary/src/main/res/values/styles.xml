@@ -9,4 +9,12 @@
         <item name="android:cacheColorHint">@color/sdk_base_transparent</item>
         <item name="android:listSelector">@color/sdk_base_transparent</item>
     </style>
+
+    <!-- 去掉tab顶部的黑边 -->
+    <style name="no_title" parent="@android:style/Theme.Light.NoTitleBar">
+
+        <!-- 沉浸式状态栏 -->
+        <item name="android:fitsSystemWindows">true</item>
+        <item name="android:clipToPadding">false</item>
+    </style>
 </resources>
