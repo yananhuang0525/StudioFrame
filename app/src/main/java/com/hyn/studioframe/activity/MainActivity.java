@@ -3,22 +3,15 @@ package com.hyn.studioframe.activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
-import android.support.v4.app.FragmentActivity;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentTransaction;
-import android.view.Menu;
-import android.view.MenuItem;
-import android.view.Window;
-import android.view.WindowManager;
 import android.widget.RadioGroup;
 
 import com.hyn.baselibrary.avc.core.BaseFragmentActivity;
 import com.hyn.studioframe.R;
-import com.hyn.studioframe.fragment.HomeFragment;
 import com.hyn.studioframe.fragment.HomePageFragment;
 import com.hyn.studioframe.fragment.MyFragment;
 import com.hyn.studioframe.fragment.OtherFragment;
-import com.readystatesoftware.systembartint.SystemBarTintManager;
 
 import java.util.Arrays;
 import java.util.List;
